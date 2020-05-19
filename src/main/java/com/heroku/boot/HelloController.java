@@ -19,10 +19,10 @@ public class HelloController{
   String hello(@RequestParam(value = "name", defaultValue = "World")String name){
     return String.format("Hello %s!", name);
   }
+
   @GetMapping("/greetings")
-  Iterable<Greeting> greetings(@RequestParam(value = "message", defaultValue = "No Message")String message){
+  Iterable<Greeting> greetings(@RequestParam String message){
     greetingRepository.save(new Greeting(message));
     return greetingRepository.findAll();
   }
-
 }

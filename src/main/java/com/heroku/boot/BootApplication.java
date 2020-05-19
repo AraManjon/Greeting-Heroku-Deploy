@@ -13,12 +13,4 @@ public class BootApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BootApplication.class, args);
 	}
-
-/*	@Bean
-	ApplicationRunner applicationRunner(GreetingRepository greetingRepository){
-		return args -> {
-			greetingRepository.save(new Greeting("hello"));
-			greetingRepository.save(new Greeting("hi"));
-		};
-	}*/
 }
