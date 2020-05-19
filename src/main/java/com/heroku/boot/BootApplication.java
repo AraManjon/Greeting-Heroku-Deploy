@@ -14,11 +14,11 @@ public class BootApplication {
 		SpringApplication.run(BootApplication.class, args);
 	}
 
-	@Bean
+/*	@Bean
 	ApplicationRunner applicationRunner(GreetingRepository greetingRepository){
 		return args -> {
 			greetingRepository.save(new Greeting("hello"));
 			greetingRepository.save(new Greeting("hi"));
 		};
-	}
+	}*/
 }

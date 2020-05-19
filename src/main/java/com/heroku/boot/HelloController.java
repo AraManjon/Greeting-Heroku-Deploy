@@ -20,8 +20,9 @@ public class HelloController{
     return String.format("Hello %s!", name);
   }
   @GetMapping("/greetings")
-  Iterable<Greeting> greetings(){
-    return  greetingRepository.findAll();
+  Iterable<Greeting> greetings(@RequestParam(value = "message", defaultValue = "No Message")String message){
+    greetingRepository.save(new Greeting(message));
+    return greetingRepository.findAll();
   }
 
 }
