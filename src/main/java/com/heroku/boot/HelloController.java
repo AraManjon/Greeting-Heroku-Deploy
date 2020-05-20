@@ -23,7 +23,7 @@ public class HelloController{
     return String.format("Hello %s!", name);
   }
 
-  @GetMapping("/greeting")
+  @PostMapping("/greeting")
   String addGreetings(@RequestParam String message){
     greetingRepository.save(new Greeting(message));
     return message + "introduced correctly";
