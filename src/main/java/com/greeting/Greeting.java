@@ -1,4 +1,4 @@
-package com.heroku.boot;
+package com.greeting;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.heroku.boot;
+package com.greeting.boot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

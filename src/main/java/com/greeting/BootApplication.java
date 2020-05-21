@@ -1,4 +1,4 @@
-package com.heroku.boot;
+package com.greeting;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

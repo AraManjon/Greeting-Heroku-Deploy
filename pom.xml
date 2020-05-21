@@ -8,10 +8,10 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.heroku</groupId>
-	<artifactId>boot</artifactId>
+	<groupId>com</groupId>
+	<artifactId>greeting</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>boot</name>
+	<name>greeting</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
