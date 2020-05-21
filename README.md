@@ -42,6 +42,7 @@ Dependencies : JPA, DevTools, Spring Web, PostgreSQL
 3- Create a Greeting entity
 
 4- Create a GreetingRepository interface that extends from CrudRepository
+
 --------------------------
 ### Heroku deployment
 
