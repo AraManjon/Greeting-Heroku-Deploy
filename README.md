@@ -8,7 +8,7 @@ It's created as a training to deploy an api in heroku platform.
 
 > git clone git@github.com:AraManjon/Greeting-Heroku-Deploy.git
 >
-> visit [https://heroku-boot-deploy.herokuapp.com](https://heroku-boot-deploy.herokuapp.com)
+> visit [https://greeting-heroku-deploy.herokuapp.com/](https://greeting-heroku-deploy.herokuapp.com/)
 > 
 > start to use endpoints
 --------------------------
