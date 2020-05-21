@@ -6,7 +6,7 @@ It's created as a training to deploy an api in heroku platform.
 
 ### Installation
 
-> git clone git@gitlab.com:Ara_Manjon/greeting-heroku-deploy.git
+> git clone git@github.com:AraManjon/Greeting-Heroku-Deploy.git
 >
 > visit [https://greeting-heroku-deploy.herokuapp.com/](https://greeting-heroku-deploy.herokuapp.com/)
 > 
