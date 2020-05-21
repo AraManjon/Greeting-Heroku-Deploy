@@ -4,11 +4,11 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-public class HelloController{
+public class GreetingController {
 
   private final GreetingRepository greetingRepository;
 
-  public HelloController(GreetingRepository greetingRepository) {
+  public GreetingController(GreetingRepository greetingRepository) {
     this.greetingRepository = greetingRepository;
   }
 
