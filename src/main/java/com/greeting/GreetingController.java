@@ -11,6 +11,10 @@ public class GreetingController {
   public GreetingController(GreetingRepository greetingRepository) {
     this.greetingRepository = greetingRepository;
   }
+  @GetMapping("/")
+  String start(){
+    return String.format("Start to use endpoints 💪🏼");
+  }
 
   @GetMapping("/hello")
   String hello(@RequestParam(value = "name", defaultValue = "World")String name){

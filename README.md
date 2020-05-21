@@ -30,7 +30,6 @@ It's created as a training to deploy an api in heroku platform.
 
 > GET /greetings
 --------------------------
-
 ### Implementation
 
 1- Create a spring-boot project from [spring initializr](https://start.spring.io)
