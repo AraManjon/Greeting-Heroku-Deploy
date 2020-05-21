@@ -12,7 +12,6 @@ It's created as a training to deploy an api in heroku platform.
 > 
 > start to use endpoints
 --------------------------
-
 ### Endpoints
 
 #### Hello World!
@@ -30,6 +29,7 @@ It's created as a training to deploy an api in heroku platform.
 #### Retrieve Greetings
 
 > GET /greetings
+--------------------------
 
 ### Implementation
 
@@ -42,7 +42,7 @@ Dependencies : JPA, DevTools, Spring Web, PostgreSQL
 3- Create a Greeting entity
 
 4- Create a GreetingRepository interface that extends from CrudRepository
-
+--------------------------
 ### Heroku deployment
 
 > heroku login
