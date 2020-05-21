@@ -35,7 +35,7 @@ It's created as a training to deploy an api in heroku platform.
 
 1- Create a spring-boot project from [spring initializr](https://start.spring.io)
 
-> Dependencies : JPA, DevTools, Spring Web, PostgreSQL
+Dependencies : JPA, DevTools, Spring Web, PostgreSQL
 
 2- Create a GreetingController with endpoints
 
@@ -51,7 +51,7 @@ It's created as a training to deploy an api in heroku platform.
 >
 > visit heroku and change random name by project name and add-ons Heroku Postrges
 >
-> In the project directory
+> in the project directory
 >
 > git init
 >
